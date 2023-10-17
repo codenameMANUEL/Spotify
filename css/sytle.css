@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    color: #fff;
+    background-color: black;
+}
+.Spotify-logo{
+    width: 150px;
+    background-color: #fff;
+}
+.nav-list-items ul{
+    display: flex;
+}
+.nav-list-items li{
+    margin: 20px 20px;
+    font-weight: 600;
+}
+.nav-list-items li:hover{
+    color: #1ed760;
+}
+.intro{
+    background-color: #1d75de;
+    height: 380px;
+}
+.intro > div{
+    padding: 80px 30px 10px 50px ;
+}
+.intro h1{
+    color: #fff;
+    font-size: 40px;
+}
+.premium-story{
+    padding-top: 40px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-intro{
+    padding-top: 40px;
+}
+.get-started-btn{
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+}
+.get-started-btn:hover{
+    padding: 17px 43px;
+}
+.view-plan-btn{
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.view-plan-btn:hover{
+    padding: 16px 42px;
+}
+.TandC{
+    padding-top: 50px;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.why-premium-one {
+    padding-top: 80px;
+    text-align: center;
+}
+.why-premium-roll{
+    padding: 100px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.why-premium-roll img{
+    width: 150px;
+}
+.why-premium-roll h2{
+    padding-top: 40px;
+    font-size: 20px;
+}
+.why-premium-roll p{
+    padding-top: 18px;
+}
+.pick-premium{
+    background-color: #efefef;
+}
+.pick-premium-text{
+    padding-top: 40px;
+    text-align: center;
+}
+.pick-premium-text h1{
+    font-size: 40px;
+}
+.pick-premium-text p{
+    padding-top: 15px;
+    font-size: 17px;
+}
+.pick-premium-roll{
+    padding: 50px 30px 30px 30px;
+    display: flex;
+}
+.pick-premium-roll-box{
+    padding: 15px;
+    width: 250px;
+    height: 500px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.pick-premium-roll-box-btn1{
+    padding: 10px 0px;
+}
+.pick-premium-roll-box-btn1 button{
+    padding: 7px 20px;
+    border: 1px solid #1d75de;
+    color: #1d75de;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.cost-per-month{
+    padding: 7px 0px;
+}
+.horizontal{
+    padding: 20px 0px;
+}
+.pick-premium-roll-box li{
+    list-style-type: square;
+}
+.pick-premium-roll-box ul{
+    padding: 5px 18px 5px 18px;
+}
